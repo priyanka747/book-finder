@@ -17,7 +17,7 @@ b.	If you didn't spend much time on the coding test, then use this as an opportu
 4.	How would you improve the API that you just used?
     i would add pagination option and simplyfy the ISBN version storage
 5.	Please describe yourself using correctly formatted JSON.
-    ```
+```
 {
    "firtname":"priyanka",
    "lastname":"thakker",
@@ -77,7 +77,7 @@ b.	If you didn't spend much time on the coding test, then use this as an opportu
       {
          "level":"AEC",
          "major":"web technologies",
-         "yearCompleted":"2021",
+         "yearCompleted":2021,
          "highest education":false
       }
    ],
@@ -86,16 +86,17 @@ b.	If you didn't spend much time on the coding test, then use this as an opportu
          "company":"ordergrid",
          "position":"Lead Developer",
          "description":"Develop Web Applications using HTML (4/5), CSS (2/3), JavaScript, TypeScript, VueJS, Node.js, Express JS, jQuery, AJAX, XML, Bootstrap, JSON, Vuetify,Work with NoSQL database MongoDB, and project management tools such as scrumMate, Asana",
-         "start":"jan 2021",
+         "start":"aug 2021",
          "end":"dec 2022"
       },
       {
          "company":"First servant Capital Corporation, Toronto",
          "position":"Senior Developer",
-         "description":"Develop Web Applications using HTML (4/5), CSS (2/3), JavaScript, TypeScript, Angular (2/4), Node.js, Express JS, jQuery, AJAX, XML, Bootstrap, JSON, Java/J2EE.Work with MySQL databases and Firebase,and project management tools such as JIRA,Design UX/UI  with Adobe XD"
+         "description":"Develop Web Applications using HTML (4/5), CSS (2/3), JavaScript, TypeScript, Angular (2/4), Node.js, Express JS, jQuery, AJAX, XML, Bootstrap, JSON, Java/J2EE.Work with MySQL databases and Firebase,and project management tools such as JIRA,Design UX/UI  with Adobe XD",
+         "start":"jan 2021",
+         "end":"aug 2021"
       }
    ]
 }
-    ```
-}
+```
 
