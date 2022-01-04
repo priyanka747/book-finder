@@ -62,13 +62,7 @@ function App() {
       return <p>image not found</p>;
     }
   };
-  function dateSorter(a, b, order, dataField) {
-    if (order === 'asc') {
-      return new Date(a).getTime() - new Date(b).getTime();
-    }
-    return new Date(b).getTime() - new Date(a).getTime(); // desc
-  }
-
+  
   const dateFormatter = (data, i) => {
     if (data) {
       return dateFormat(new Date(data), "yyyy mmmm dd");
@@ -89,7 +83,6 @@ function App() {
       text: "Publish Date",
       sort: true,
       sortFunc: (a, b, order, dataField) => {
-        console.log(order);
         if (order === 'asc') {
           return new Date(a).getTime() - new Date(b).getTime();
         }
