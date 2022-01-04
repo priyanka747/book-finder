@@ -17,6 +17,7 @@ b.	If you didn't spend much time on the coding test, then use this as an opportu
 4.	How would you improve the API that you just used?
     i would add pagination option and simplyfy the ISBN version storage
 5.	Please describe yourself using correctly formatted JSON.
+    ```
     {  
     "employee": {  
         "firtname":       "priyanka",   
@@ -34,8 +35,6 @@ b.	If you didn't spend much time on the coding test, then use this as an opportu
             ],
             "Project Management":["Agile","Scrum","Trello", "JIRA"],
             "OS":[ "windows", "Linux", "Rasbian", "Android"],
-
-
         ],  
         "education":[
             {
@@ -55,5 +54,6 @@ b.	If you didn't spend much time on the coding test, then use this as an opportu
         ],
         
     }  
+    ```
 }  
 
