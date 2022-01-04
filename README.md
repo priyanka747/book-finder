@@ -96,9 +96,6 @@ b.	If you didn't spend much time on the coding test, then use this as an opportu
          }
       ]
 	}
-}
-   }
-}
     ```
 }  
 
