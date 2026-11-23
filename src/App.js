@@ -15,11 +15,11 @@ function App() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://openlibrary.org/search.json?author=tolkien")//http://openlibrary.org/search.json?q=
+    fetch("https://openlibrary.org/search.json?author=tolkien")//http://openlibrary.org/search.json?q=
       .then((res) => res.json())
       .then((data) => setData(data))
       .then(() => setLoading())
-      .catch(setError);
+      .catch((e) => { setError(e); setLoading(false); });
   }, []);
 
   if (loading) {
@@ -55,7 +55,7 @@ function App() {
   }
   const coverFormatter = (data, i) => {
     if (data) {
-      let src = "http://covers.openlibrary.org/b/isbn/" + data[0] + "-M.jpg";
+      let src = "https://covers.openlibrary.org/b/isbn/" + data[0] + "-M.jpg";
       if (src !== "") {
         return <img src={src} alt={"cover for book with isbn" + data[0]} />
       }
